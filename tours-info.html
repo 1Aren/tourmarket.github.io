@@ -1,0 +1,434 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Инфотуры &middot; ТурМаркет</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+
+
+    <nav class="navbar navbar--fixed navbar--fixed-transparent" data-js="navbar">
+      <div class="container">
+        <div class="navbar__wrapper">
+          <a class="navbar__brand" href="index.html">
+            <img src="/assets/img/logo.svg">
+          </a>
+          <button class="navbar__toggler" role="button" data-js="navbar-toggler">
+            <span class="navbar__toggler-line"></span>
+            <span class="navbar__toggler-line"></span>
+            <span class="navbar__toggler-line"></span>
+          </button>
+          <div class="navbar__collapse">
+            <ul class="navbar__menu">
+              <li class="navbar__item navbar__item--selected">
+                <a class="navbar__link" href="tours.html">Туры</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="tickets-start.html">Билеты</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="insurance.html">Страховка</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="blog.html">Статьи</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="about.html">О нас</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="hotels.html">Отели</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="countries.html">Страны</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="cabinet.html">Моя страница</a>
+              </li>
+
+              <div class="d-md-none">
+                <div class="social-reel">
+                  <a href="#"><img src="/assets/img/social/facebook.svg"></a>
+                  <a href="#"><img src="/assets/img/social/vk.svg"></a>
+                  <a href="#"><img src="/assets/img/social/twitter.svg"></a>
+                  <a href="#"><img src="/assets/img/social/instagram.svg"></a>
+                </div>
+              </div>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <form>
+    <div class="page-header" style="background: url('/assets/img/headers/home-header.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-md-8">
+            <div class="form-group input-bg">
+              <input type="search" placeholder="Что вы ищете?" class="form-control input input-search">
+            </div>
+
+          </div>
+          <div class="col-5 col-md-2 pl-0">
+            <div class="form-group input-bg">
+              <input type="search" placeholder="Дата" class="form-control input input-date">
+            </div>
+
+          </div>
+          <div class="col-12 col-md-2 mt-2 px-5 md-mt-0 md-px-0">
+
+            <button role="submit" class="btn btn-main btn-block ">Показать</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div class="card-raise">
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-12">
+          <div class="card tab-card">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-12 col-md-7">
+                  <ul class="tabs link">
+                    <li><a href="tours.html" data-tab="1">Поиск туров</a></li>
+                    <li><a href="tours-excursion.html" data-tab="2">Экскурсионные</a></li>
+                    <li class="active"><a href="tours-info.html" data-tab="3">Инфотуры</a></li>
+                    <li><a href="cabinet-favorites.html" data-tab="4">Избранное</a></li>
+                  </ul>
+                </div>
+                <div class="d-none d-md-block col-md-5 text-right">
+                  <div class="currency">
+                    Курс валют: <strong>$ 25.56 / € 28.47</strong>
+                    <span class="info-badge">
+                      <img src="/assets/img/icons/info.svg">
+                      <span class="info-badge-down">
+                        тут будет контент выпадающего окошка
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tab-content">
+              <div class="row">
+                <div class="col-12">
+
+
+
+
+
+
+                  <div class="tab-inner active" data-tab="3">
+                    <form>
+                      <div class="row">
+
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <label for="country">Страна отправления</label>
+                          <select class="select2" multiple="multiple" name="country" id="country">
+                            <option value="1">Турция</option>
+                            <option value="2">Египет</option>
+                            <option value="3">Греция</option>
+                          </select>
+                          <label class="checkbox">
+                            Не имеет значения
+                            <input type="checkbox" name="country_any">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <label for="from">Город отправления</label>
+                          <select class="select2" multiple="multiple" name="from" id="from">
+                            <option value="1">Киев</option>
+                            <option value="2">Харьков</option>
+                          </select>
+                          <label class="checkbox">
+                            Не имеет значения
+                            <input type="checkbox" name="from_any">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-2 md-mb-0 pb-1 text-center align-self-center">
+
+                          <button role="submit" class="btn btn-main btn-wide ">Найти</button>
+
+                        </div>
+                      </div>
+
+                    </form>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block-tours mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="tour">
+                <a class="posa" href="#"></a>
+                <div class="tour-top">
+                  <div class="tour-title">
+                    <p>
+                      <span class="tour-title-name">Китай</span>
+                    </p>
+                    <p>
+                      <span class="tour-title-date">16 августа</span>
+                    </p>
+                    <p>
+                      <span class="tour-title-destination">
+                        Киев
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="white" />
+                        </svg>
+
+                        Шанхай
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="white" />
+                        </svg>
+
+                        Пекин
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="white" />
+                        </svg>
+
+                        Гуаньчжоу
+                      </span>
+                    </p>
+                  </div>
+                  <a href="#" class="bookmark tour-bookmark">
+                    <img class="inactive" src="/assets/img/icons/bookmark.svg">
+                    <img class="active" src="/assets/img/icons/bookmark-active.svg">
+                  </a>
+                  <img class="tour-bg" src="/assets/img/placeholders/tour-4.jpg">
+                </div>
+                <div class="tour-bottom">
+                  <span class="tour-order">
+                    <a href="#" class="tour-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="tour-order-price">5000 $</span>
+                    </a>
+                  </span>
+                  <span class="tour-details">
+                    Автобус
+                  </span>
+                  <a href="#" class="hotel-wide-quicklink">
+                    Оформить покупку <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="#F2584D" />
+                    </svg>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="tour">
+                <a class="posa" href="#"></a>
+                <div class="tour-top">
+                  <div class="tour-title">
+                    <p>
+                      <span class="tour-title-name">Танзания</span>
+                    </p>
+                    <p>
+                      <span class="tour-title-date">11 сентября</span>
+                    </p>
+                    <p>
+                      <span class="tour-title-destination">
+                        Киев
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="white" />
+                        </svg>
+
+                        Додома
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="white" />
+                        </svg>
+
+                        Муанза
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="white" />
+                        </svg>
+
+                        Сенсибар
+                      </span>
+                    </p>
+                  </div>
+                  <a href="#" class="bookmark tour-bookmark">
+                    <img class="inactive" src="/assets/img/icons/bookmark.svg">
+                    <img class="active" src="/assets/img/icons/bookmark-active.svg">
+                  </a>
+                  <img class="tour-bg" src="/assets/img/placeholders/tour-2.jpg">
+                </div>
+                <div class="tour-bottom">
+                  <span class="tour-order">
+                    <a href="#" class="tour-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="tour-order-price">7000 $</span>
+                    </a>
+                  </span>
+                  <span class="tour-details">
+                    Самолёт
+                  </span>
+                  <a href="#" class="hotel-wide-quicklink">
+                    Оформить покупку <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="#F2584D" />
+                    </svg>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mb-3">
+            <div class="col-12 text-center">
+
+              <button role="submit" class="btn btn-main">Показать ещё</button>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-actions py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 my-3 md-my-0">
+            <p class="footer-title">Наши контакты</p>
+            <p class="footer-content">
+              01010, г. Киев, ул. Федьковича, 58
+            </p>
+            <p class="footer-content">
+              Email: info@misto.travel
+            </p>
+            <div class="footer-social">
+              <div class="social-links">
+                <a href="#"><img src="/assets/img/social/facebook-white.svg"></a>
+                <a href="#"><img src="/assets/img/social/vk-white.svg"></a>
+                <a href="#"><img src="/assets/img/social/twitter-white.svg"></a>
+                <a href="#"><img src="/assets/img/social/instagram-white.svg"></a>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-md-block col-md-4 mb-2 md-mb-0">
+            <p class="footer-title">Туры</p>
+            <ul class="footer-menu">
+              <li><a href="#">Поиск туров</a></li>
+              <li><a href="#">Экскурсионные туры</a></li>
+              <li><a href="#">Инфотуры</a></li>
+              <li><a href="#">Избранные туры</a></li>
+            </ul>
+          </div>
+          <div class="d-none d-md-block col-md-4 mb-2 md-mb-0">
+            <p class="footer-title">Меню сайта</p>
+            <div class="row">
+              <div class="col-5">
+                <ul class="footer-menu">
+                  <li><a href="#">Туры</a></li>
+                  <li><a href="#">Билеты</a></li>
+                  <li><a href="#">Страховка</a></li>
+                  <li><a href="#">Страны</a></li>
+                </ul>
+              </div>
+              <div class="col-5">
+                <ul class="footer-menu">
+                  <li><a href="#">Отели</a></li>
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">О нас</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright py-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 info mb-2 md-mb-0">
+            Вся информация, размещённая на сайте, носит исключительно информационный характер и не является рекламой и публичной офертой.
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+          <div class="col-12 col-md-4 text-center copy">
+            ООО «ТурМаркет»<br>
+            © 2019 Все права защищены
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+
+</html>

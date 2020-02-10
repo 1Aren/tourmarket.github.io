@@ -1,0 +1,3642 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Билеты &middot; ТурМаркет</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+
+
+    <nav class="navbar navbar--fixed navbar--fixed-transparent" data-js="navbar">
+      <div class="container">
+        <div class="navbar__wrapper">
+          <a class="navbar__brand" href="index.html">
+            <img src="/assets/img/logo.svg">
+          </a>
+          <button class="navbar__toggler" role="button" data-js="navbar-toggler">
+            <span class="navbar__toggler-line"></span>
+            <span class="navbar__toggler-line"></span>
+            <span class="navbar__toggler-line"></span>
+          </button>
+          <div class="navbar__collapse">
+            <ul class="navbar__menu">
+              <li class="navbar__item">
+                <a class="navbar__link" href="tours.html">Туры</a>
+              </li>
+              <li class="navbar__item navbar__item--selected">
+                <a class="navbar__link" href="tickets-start.html">Билеты</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="insurance.html">Страховка</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="blog.html">Статьи</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="about.html">О нас</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="hotels.html">Отели</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="countries.html">Страны</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="cabinet.html">Моя страница</a>
+              </li>
+
+              <div class="d-md-none">
+                <div class="social-reel">
+                  <a href="#"><img src="/assets/img/social/facebook.svg"></a>
+                  <a href="#"><img src="/assets/img/social/vk.svg"></a>
+                  <a href="#"><img src="/assets/img/social/twitter.svg"></a>
+                  <a href="#"><img src="/assets/img/social/instagram.svg"></a>
+                </div>
+              </div>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <form>
+    <div class="page-header" style="background: url('/assets/img/headers/tickets-bus-header.jpg')">
+
+    </div>
+  </form>
+
+  <div class="card-raise">
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-12">
+          <div class="card tab-card">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-12 col-md-8">
+                  <ul class="tabs link">
+                    <li><a href="tickets-start.html" data-tab="1">Чартерные рейсы</a></li>
+                    <li class="active"><a href="tickets-regular.html" data-tab="2">Регулярные рейсы</a></li>
+                    <li><a href="tickets-bus.html" data-tab="3">Автобусные билеты</a></li>
+                  </ul>
+                </div>
+                <div class="d-none d-md-block col-md-4 text-right">
+                  <div class="currency">
+                    Курс валют: <strong>$ 25.56 / € 28.47</strong>
+                    <span class="info-badge">
+                      <img src="/assets/img/icons/info.svg">
+                      <span class="info-badge-down">
+                        тут будет контент выпадающего окошка
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tab-content">
+              <div class="row">
+                <div class="col-12">
+
+
+
+
+                  <div class="tab-inner active" data-tab="2">
+                    <form class="rich-search">
+                      <div class="row">
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <label for="city_from">Откуда</label>
+                          <select class="select2" multiple="multiple" name="city_from" id="city_from">
+                            <option value="1">Киев</option>
+                            <option value="2">Одесса</option>
+                            <option value="3">Львов</option>
+                          </select>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <label for="city_to">Куда</label>
+                          <select class="select2" multiple="multiple" name="city_to" id="city_to">
+                            <option value="1">Копенгаген</option>
+                            <option value="2">Дюссельдорф</option>
+                          </select>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <label for="class">Куда</label>
+                          <select class="select2" multiple="multiple">
+                            <option value="1">Эконом</option>
+                            <option value="2">Премиум эконом</option>
+                            <option value="3">Бизнес</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="row advanced">
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <div class="row">
+                            <div class="col-6 mb-2 md-mb-0">
+                              <label for="dates">Дата вылета туда</label>
+                              <div class="form-group input-bg">
+                                <input type="search" placeholder="Дата" class="form-control input input-date">
+                              </div>
+
+                            </div>
+
+                            <div class="col-6 mb-2 md-mb-0">
+                              <label for="dates">Обратно</label>
+                              <div class="form-group input-bg">
+                                <input type="search" placeholder="Дата" class="form-control input input-date">
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                          <div class="row">
+                            <div class="col-6 mb-2 md-mb-0">
+                              <label for="dates">Время вылета туда</label>
+                              <select class="select2">
+                                <option value="1">Любое</option>
+                                <option value="2">00:00</option>
+                                <option value="2">01:00</option>
+                                <option value="2">02:00</option>
+                                <option value="2">03:00</option>
+                                <option value="2">04:00</option>
+                                <option value="2">05:00</option>
+                                <option value="2">06:00</option>
+                                <option value="2">07:00</option>
+                                <option value="2">08:00</option>
+                                <option value="2">09:00</option>
+                                <option value="2">10:00</option>
+                                <option value="2">11:00</option>
+                                <option value="2">12:00</option>
+                                <option value="2">13:00</option>
+                                <option value="2">14:00</option>
+                                <option value="2">15:00</option>
+                                <option value="2">16:00</option>
+                                <option value="2">17:00</option>
+                                <option value="2">18:00</option>
+                                <option value="2">19:00</option>
+                                <option value="2">20:00</option>
+                                <option value="2">21:00</option>
+                                <option value="2">22:00</option>
+                                <option value="2">23:00</option>
+                              </select>
+                            </div>
+
+                            <div class="col-6 mb-2 md-mb-0">
+                              <label for="dates">Обратно</label>
+                              <select class="select2">
+                                <option value="1">Любое</option>
+                                <option value="2">00:00</option>
+                                <option value="2">01:00</option>
+                                <option value="2">02:00</option>
+                                <option value="2">03:00</option>
+                                <option value="2">04:00</option>
+                                <option value="2">05:00</option>
+                                <option value="2">06:00</option>
+                                <option value="2">07:00</option>
+                                <option value="2">08:00</option>
+                                <option value="2">09:00</option>
+                                <option value="2">10:00</option>
+                                <option value="2">11:00</option>
+                                <option value="2">12:00</option>
+                                <option value="2">13:00</option>
+                                <option value="2">14:00</option>
+                                <option value="2">15:00</option>
+                                <option value="2">16:00</option>
+                                <option value="2">17:00</option>
+                                <option value="2">18:00</option>
+                                <option value="2">19:00</option>
+                                <option value="2">20:00</option>
+                                <option value="2">21:00</option>
+                                <option value="2">22:00</option>
+                                <option value="2">23:00</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-2 md-mb-0">
+                          <label>Диапазон дат</label>
+                          <div class="tag">
+                            <span class="tag-text">+3 дня</span>
+                            <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                            <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                          </div>
+                          <div class="tag">
+                            <span class="tag-text">+7 дней</span>
+                            <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                            <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                          </div>
+                          <div class="tag">
+                            <span class="tag-text">+10 дней</span>
+                            <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                            <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-4 col-md-2 mb-2 md-mb-0">
+                          <label>Взрослые <span class="inf">26-60 лет</span></label>
+                          <div class="quantity">
+                            <div class="quantity-button quantity-down">-</div>
+                            <input type="number" min="1" max="9" step="1" value="1" class="form-control input input-number">
+                            <div class="quantity-button quantity-up">+</div>
+                          </div>
+                        </div>
+                        <div class="col-4 col-md-2 mb-2 md-mb-0">
+                          <label>Дети <span class="inf">2-11 лет</span></label>
+                          <div class="quantity">
+                            <div class="quantity-button quantity-down">-</div>
+                            <input type="number" min="1" max="9" step="1" value="0" class="form-control input input-number">
+                            <div class="quantity-button quantity-up">+</div>
+                          </div>
+                        </div>
+                        <div class="col-4 col-md-2 mb-2 md-mb-0">
+                          <label>Младенцы <span class="inf">до 2 лет, с местом</span></label>
+                          <div class="quantity">
+                            <div class="quantity-button quantity-down">-</div>
+                            <input type="number" min="1" max="9" step="1" value="0" class="form-control input input-number">
+                            <div class="quantity-button quantity-up">+</div>
+                          </div>
+                        </div>
+                        <div class="col-4 col-md-2 mb-2 md-mb-0">
+                          <label>Младенцы <span class="inf">до 2 лет, без места</span></label>
+                          <div class="quantity">
+                            <div class="quantity-button quantity-down">-</div>
+                            <input type="number" min="1" max="9" step="1" value="0" class="form-control input input-number">
+                            <div class="quantity-button quantity-up">+</div>
+                          </div>
+                        </div>
+                        <div class="col-4 col-md-2 mb-2 md-mb-0">
+                          <label>Пожилые <span class="inf">60+</span></label>
+                          <div class="quantity">
+                            <div class="quantity-button quantity-down">-</div>
+                            <input type="number" min="1" max="9" step="1" value="0" class="form-control input input-number">
+                            <div class="quantity-button quantity-up">+</div>
+                          </div>
+                        </div>
+                        <div class="col-4 col-md-2 mb-2 md-mb-0">
+                          <label>Молодёжь <span class="inf">12-25 лет</span></label>
+                          <div class="quantity">
+                            <div class="quantity-button quantity-down">-</div>
+                            <input type="number" min="1" max="9" step="1" value="0" class="form-control input input-number">
+                            <div class="quantity-button quantity-up">+</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row advanced">
+                        <div class="col-12 col-md-4  mb-2 md-mb-0">
+                          <label for="class">Авиакомпания</label>
+                          <select class="select2" multiple="multiple" name="class" id="class">
+                            <option value="1">Lufthansa</option>
+                            <option value="2">Ryanair</option>
+                            <option value="3">Skyup</option>
+                          </select>
+                          <label class="checkbox">
+                            Только прямые рейсы
+                            <input type="checkbox" name="direect_only">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 text-center align-self-center d-none d-md-block">
+
+                          <button role="submit" class="btn btn-main btn-wide ">Найти</button>
+
+                          <a href="#" class="clear-form"><img src="/assets/img/icons/remove.svg"> Очистить всё</a>
+                        </div>
+                      </div>
+
+                      <div class="d-md-none mt-2">
+                        <a href="#" class="advanced-search-toggle advanced-search-toggle-mobile">
+                          <span class="simple">Расширенный поиск</span>
+                          <span class="advanced">Простой поиск</span>
+                          <span class="toggle-switch"></span>
+                        </a>
+                      </div>
+
+                      <div class="row mt-2 d-md-none advanced">
+                        <div class="col-12 search-grid">
+
+                          <button role="submit" class="btn btn-main">Найти</button>
+
+                          <a href="#" class="clear-form"><img src="/assets/img/icons/remove.svg"> Очистить всё</a>
+                        </div>
+                      </div>
+
+                      <div class="row mt-2 simple">
+                        <div class="col-12 text-center">
+
+                          <button role="submit" class="btn btn-main btn-wide ">Найти</button>
+
+                        </div>
+                      </div>
+
+                      <div class="text-right d-none d-md-block">
+                        <a href="#" class="advanced-search-toggle"><img src="/assets/img/icons/switch.svg"> <span class="simple">Расширенный поиск</span><span class="advanced">Простой поиск</span></a>
+                      </div>
+                    </form>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="loader-screen my-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7">
+          <div class="loader-screen-card">
+            <div class="loader-screen-card-title">
+              <img src="/assets/img/icons/advice.png">
+              Полезные советы
+            </div>
+            <div class="loader-screen-card-body">
+              <!--<div class="loader-screen-card-icon">
+                                <img src="/assets/img/placeholders/icon-placeholder.svg">
+                            </div>-->
+              <div class="loader-screen-card-text mt-1 p-1">
+                <img class="icon-placeholder" src="/assets/img/icons/icon-placeholder.png">
+                <p>
+                  Билеты туда-обратно стоят дешевле, чем отдельно в каждую сторону, поэтому покупайте авиабилеты сразу в обе стороны.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 offset-md-1 mt-2 md-mt-0">
+          <div class="loader-screen-card">
+            <div class="loader-screen-card-title">
+              <img src="/assets/img/icons/weather.png">
+              Погода
+            </div>
+            <div class="loader-screen-card-body">
+              <!--<div class="loader-screen-card-icon">
+                                <img src="/assets/img/placeholders/icon-placeholder.svg">
+                            </div>-->
+              <div class="loader-screen-card-weather mt-1 p-1">
+                <div class="row mb-2">
+                  <div class="col-6">
+                    <p class="loader-screen-card-weather-bold">Киев</p>
+                  </div>
+                  <div class="col-6 text-right">
+                    <img src="/assets/img/icons/weather-cloud.png">
+                    <span>Облачно</span>
+                    <span class="sub">+12°C...+4°C</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <p class="loader-screen-card-weather-bold">Копенгаген</p>
+                  </div>
+                  <div class="col-6 text-right">
+                    <img src="/assets/img/icons/weather-sun.png">
+                    <span>Ясно</span>
+                    <span class="sub">+21°C...+16°C</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tickets-list mt-3 afterload">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1>Вы искали:</h1>
+          <h6>
+            <strong>
+              <span class="highlight">Киев</span>
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.468 5.032L6.804 9.118H4.374L6.246 6.004H0.9V4.06H6.228L4.374 0.981999H6.804L9.468 5.032Z" fill="#000000" />
+              </svg>
+
+              <span class="highlight">Копенгаген</span>, вылет туда: <span class="highlight">29.10</span>, вылет обратно: <span class="highlight">07.11</span>
+            </strong>
+          </h6>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/lufthansa.svg">
+                  <span>Lufthansa</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">180 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 180 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+
+                              </div>
+
+                              <p class="ticket-way-transfer">Без пересадок</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                <p class="ticket-city-name">Франкфурт на Майне</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-text">Без пересадок</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                  <p class="ticket-city-name">Франкфурт на Майне</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/ryanair.svg">
+                  <span>Ryanair</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">229 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 229 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                                <p class="ticket-way-transfer-badge">Пересадка</p>
+                              </div>
+
+                              <p class="ticket-way-transfer">Копенгаген<br>3 ч. 20 мин.</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 ВС</p>
+                              <p class="ticket-arrival-time">07:05</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-badge">Пересадка</p>
+                                <p class="ticket-m-transfer-text">Копенгаген 3 ч. 20 мин.</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket-more">
+                  <a class="ticket-more-open" href="javascript://">Подробнее <img src="/assets/img/icons/dropdown.svg"></a>
+                  <a class="ticket-more-close" href="javascript://">Свернуть <img src="/assets/img/icons/dropdown.svg"></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/lufthansa.svg">
+                  <span>Lufthansa</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">180 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 180 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+
+                              </div>
+
+                              <p class="ticket-way-transfer">Без пересадок</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                <p class="ticket-city-name">Франкфурт на Майне</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-text">Без пересадок</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                  <p class="ticket-city-name">Франкфурт на Майне</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/ryanair.svg">
+                  <span>Ryanair</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">229 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 229 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                                <p class="ticket-way-transfer-badge">Пересадка</p>
+                              </div>
+
+                              <p class="ticket-way-transfer">Копенгаген<br>3 ч. 20 мин.</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 ВС</p>
+                              <p class="ticket-arrival-time">07:05</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-badge">Пересадка</p>
+                                <p class="ticket-m-transfer-text">Копенгаген 3 ч. 20 мин.</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket-more">
+                  <a class="ticket-more-open" href="javascript://">Подробнее <img src="/assets/img/icons/dropdown.svg"></a>
+                  <a class="ticket-more-close" href="javascript://">Свернуть <img src="/assets/img/icons/dropdown.svg"></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/lufthansa.svg">
+                  <span>Lufthansa</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">180 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 180 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+
+                              </div>
+
+                              <p class="ticket-way-transfer">Без пересадок</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                <p class="ticket-city-name">Франкфурт на Майне</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-text">Без пересадок</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                  <p class="ticket-city-name">Франкфурт на Майне</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/ryanair.svg">
+                  <span>Ryanair</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">229 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 229 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                                <p class="ticket-way-transfer-badge">Пересадка</p>
+                              </div>
+
+                              <p class="ticket-way-transfer">Копенгаген<br>3 ч. 20 мин.</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 ВС</p>
+                              <p class="ticket-arrival-time">07:05</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-badge">Пересадка</p>
+                                <p class="ticket-m-transfer-text">Копенгаген 3 ч. 20 мин.</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket-more">
+                  <a class="ticket-more-open" href="javascript://">Подробнее <img src="/assets/img/icons/dropdown.svg"></a>
+                  <a class="ticket-more-close" href="javascript://">Свернуть <img src="/assets/img/icons/dropdown.svg"></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/lufthansa.svg">
+                  <span>Lufthansa</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">180 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 180 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+
+                              </div>
+
+                              <p class="ticket-way-transfer">Без пересадок</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                <p class="ticket-city-name">Франкфурт на Майне</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-text">Без пересадок</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">FRA Франкфурт на Майне</p>
+                                  <p class="ticket-city-name">Франкфурт на Майне</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="ticket">
+                <a href="#" class="posa"></a>
+
+                <div class="ticket-logo">
+                  <img src="/assets/img/placeholders/ryanair.svg">
+                  <span>Ryanair</span>
+                </div>
+
+                <div class="ticket-price">
+                  <div class="ticket-price-mini">
+                    <a href="#" class="ticket-order-link">
+                      <img class="btn btn-main" src="/assets/img/buttons/order.svg">
+                      <span class="ticket-order-price">229 $</span>
+                    </a>
+                  </div>
+                  <div class="ticket-price-btn">
+
+                    <button role="submit" class="btn btn-main">Купить за 229 $</button>
+
+                  </div>
+                </div>
+
+                <div class="row ticket-row pt-5 pb-2 md-pt-3 md-pb-2">
+                  <div class="col-12">
+                    <div class="ticket-content md-px-3">
+
+                      <div class="ticket-content-compact">
+
+                        <!-- COMPACT DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">2 ч. 30 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                                <p class="ticket-way-transfer-badge">Пересадка</p>
+                              </div>
+
+                              <p class="ticket-way-transfer">Копенгаген<br>3 ч. 20 мин.</p>
+
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 ВС</p>
+                              <p class="ticket-arrival-time">07:05</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT DESKTOP -->
+
+                        <!-- COMPACT MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                                <p class="ticket-m-transfer-badge">Пересадка</p>
+                                <p class="ticket-m-transfer-text">Копенгаген 3 ч. 20 мин.</p>
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / COMPACT MOBILE -->
+
+                      </div>
+
+                      <div class="ticket-content-detailed">
+
+                        <!-- DETAILED DESKTOP -->
+                        <div class="d-none d-md-flex row">
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">CPH Каструп</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Копенгаген</p>
+                                <p class="ticket-city-country">Дания</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">29.09 СБ</p>
+                              <p class="ticket-departure-time">21:45</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 25 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">29.09 СБ</p>
+                              <p class="ticket-arrival-time">23:10</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name">Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 offset-md-4 ticket-transfer">
+                            <div class="text-center">
+                              <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                            </div>
+                            <div class="ticket-transfer-block">
+                              <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                              <p class="ticket-transfer-badge">Пересадка</p>
+                              <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                            </div>
+                          </div>
+                          <div class="col-md-4"></div>
+
+                          <div class="col-md-4">
+                            <div class="ticket-from">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                <p class="ticket-city-name"><img src="/assets/img/icons/airplane.svg"> Дюссельдорф</p>
+                                <p class="ticket-city-country">Германия</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 ticket-details">
+                            <div class="ticket-departure">
+                              <p class="ticket-departure-title">Вылет</p>
+                              <p class="ticket-departure-date">30.09 ВС</p>
+                              <p class="ticket-departure-time">04:35</p>
+                            </div>
+                            <div class="ticket-way text-center">
+                              <p class="ticket-way-duration">1 ч. 55 мин.</p>
+                              <div class="ticket-way-mid">
+                                <img class="ticket-way-arrow" src="/assets/img/ui/way-arrow-horizontal.svg">
+                              </div>
+                            </div>
+                            <div class="ticket-arrival">
+                              <p class="ticket-arrival-title">Прибытие</p>
+                              <p class="ticket-arrival-date">30.09 СБ</p>
+                              <p class="ticket-arrival-time">06:20</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="ticket-to">
+                              <div class="ticket-city">
+                                <p class="ticket-city-port">AYT Анталья</p>
+                                <p class="ticket-city-name">Анталия</p>
+                                <p class="ticket-city-country">Турция</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- / DETAILED DESKTOP -->
+
+                        <!-- DETAILED MOBILE -->
+                        <div class="d-md-none row px-2">
+                          <div class="col-11 offset-1">
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">29.09 СБ</p>
+                                <p class="ticket-departure-time">21:45</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">CPH Каструп</p>
+                                  <p class="ticket-city-name">Копенгаген</p>
+                                  <p class="ticket-city-country">Дания</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">2 ч. 30 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">29.09 СБ</p>
+                                <p class="ticket-arrival-time">23:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mt-1 ticket-transfer">
+                              <div class="text-center">
+                                <p class="ticket-transfer-duration">3 ч. 20 мин.</p>
+                              </div>
+                              <div class="ticket-transfer-block">
+                                <img class="ticket-transfer-to" src="/assets/img/ui/way-arrow-transfer-to.svg">
+                                <p class="ticket-transfer-badge">Пересадка</p>
+                                <img class="ticket-transfer-from" src="/assets/img/ui/way-arrow-transfer-from.svg">
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap">
+                              <div class="ticket-departure">
+                                <p class="ticket-departure-title">Вылет</p>
+                                <div class="ticket-departure-air"><img src="/assets/img/icons/airplane.svg"></div>
+                                <p class="ticket-departure-date">30.09 ВС</p>
+                                <p class="ticket-departure-time">04:35</p>
+                              </div>
+                              <div class="pl-1 ticket-from">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">DUS Дюссельдорф</p>
+                                  <p class="ticket-city-name">Дюссельдорф</p>
+                                  <p class="ticket-city-country">Германия</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1 ticket-m-mid">
+                              <div class="ticket-m-side-arrow"><img src="/assets/img/ui/way-arrow-vertical.svg"></div>
+                              <div class="">
+                                <div class="ticket-m-transfer">
+                                  <p class="ticket-m-transfer-duration">1 ч. 55 мин.</p>
+                                </div>
+                              </div>
+                              <div class="pl-1">
+
+                              </div>
+                            </div>
+
+                            <div class="row flex-nowrap mt-1">
+                              <div class="ticket-arrival">
+                                <p class="ticket-arrival-title">Прибытие</p>
+                                <div class="ticket-arrival-pin"><img src="/assets/img/icons/pin.svg"></div>
+                                <p class="ticket-arrival-date">30.09 СБ</p>
+                                <p class="ticket-arrival-time">06:20</p>
+                              </div>
+                              <div class="pl-1 ticket-to">
+                                <div class="ticket-city">
+                                  <p class="ticket-city-port">AYT Анталья</p>
+                                  <p class="ticket-city-name">Анталия</p>
+                                  <p class="ticket-city-country">Турция</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- / DETAILED MOBILE -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket-more">
+                  <a class="ticket-more-open" href="javascript://">Подробнее <img src="/assets/img/icons/dropdown.svg"></a>
+                  <a class="ticket-more-close" href="javascript://">Свернуть <img src="/assets/img/icons/dropdown.svg"></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-1 mb-3 afterload">
+    <div class="col-12 text-center">
+
+      <button role="submit" class="btn btn-main btn-wide ">Показать ещё</button>
+
+    </div>
+  </div>
+
+
+  <div class="ticket-regular-filters">
+    <div class="ticket-regular-filters-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ticket-regular-filters-details" data-filter="1">
+              <div class="ticket-regular-filters-details-close"></div>
+              <div class="ticket-regular-filters-title">
+                <span>Багаж</span>
+                <label class="checkbox choose-all">
+                  Выделить все
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="ticket-regular-filters-body">
+                <div class="tag">
+                  <span class="tag-text">Багаж включён</span>
+                  <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                  <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                </div>
+                <div class="tag">
+                  <span class="tag-text">Без багажа</span>
+                  <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                  <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                </div>
+              </div>
+            </div>
+            <div class="ticket-regular-filters-details" data-filter="2">
+              <div class="ticket-regular-filters-details-close"></div>
+              <div class="ticket-regular-filters-title">
+                <span>Пересадки</span>
+                <label class="checkbox choose-all">
+                  Выделить все
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="ticket-regular-filters-body">
+                <div class="tag">
+                  <span class="tag-text">Без пересадок</span>
+                  <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                  <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                </div>
+                <div class="tag">
+                  <span class="tag-text">1 пересадка</span>
+                  <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                  <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                </div>
+                <div class="tag">
+                  <span class="tag-text">2 пересадки</span>
+                  <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                  <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                </div>
+              </div>
+            </div>
+            <div class="ticket-regular-filters-details" data-filter="3">
+              <div class="ticket-regular-filters-details-close"></div>
+              <div class="ticket-regular-filters-title">
+                <span>Пункты пересадки</span>
+                <label class="checkbox choose-all">
+                  Выделить все
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="ticket-regular-filters-body">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="tag block">
+                      <span class="tag-text">Франкфурт на Майне (FRA)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Вена (VIE)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Мюнхен (MUC)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Цюрих (ZRH)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Рузине, Прага (PRG)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="tag block">
+                      <span class="tag-text">Рига (RIG)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">им. Фр. Шопена, Варшава (WAW)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Фьюмичино, Рим (FCO)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Брюссель (BRU)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Стамбул Аэропорт, Стамбул (IST)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="tag block">
+                      <span class="tag-text">Схипхол, Амстердам (AMS)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Минск 2, Минск (MSQ)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Шарль де Голль, Париж (CDG)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ticket-regular-filters-details" data-filter="4">
+              <div class="ticket-regular-filters-details-close"></div>
+              <div class="ticket-regular-filters-title">
+                <span>Время</span>
+                <label class="checkbox choose-all">
+                  Выделить все
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="ticket-regular-filters-body">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="filter-time-range">
+                      <p>Вылет FRA-IST</p>
+                      <div class="timerange" data-step-one="225" data-step-two="927"></div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6"></div>
+                </div>
+              </div>
+            </div>
+            <div class="ticket-regular-filters-details" data-filter="5">
+              <div class="ticket-regular-filters-details-close"></div>
+              <div class="ticket-regular-filters-title">
+                <span>Авиакомпании</span>
+                <label class="checkbox choose-all">
+                  Выделить все
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="ticket-regular-filters-body">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="tag block">
+                      <span class="tag-text">Австрийские авиалинии (OS)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">KLM (KL)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">МАУ (PS)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Смартвингз (QS)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Алиталия (AZ)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="tag block">
+                      <span class="tag-text">Белавиа (B2)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">ЭйрБалтик (BT)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Чешские авиалинии (OK)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Эйр Франс (AF)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Люфтганза (LH)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="tag block">
+                      <span class="tag-text">Свисс Эйрлайнс (LX)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">LOT Польские авиалинии (LO)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Брюссельские авиалинии (SN)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                    <div class="tag block">
+                      <span class="tag-text">Турецкие авиалинии (TK)</span>
+                      <span class="tag-close"><img src="/assets/img/icons/close.svg"></span>
+                      <span class="tag-check"><img src="/assets/img/icons/checkmark.svg"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ticket-regular-filters-row">
+          <div class="row align-items-center">
+            <div class="col-auto d-md-none">
+              <b>Фильтр: </b>
+            </div>
+            <div class="col-auto col-md-8">
+              <div class="row">
+                <div class="col-auto col-md-3">
+                  <a href="#" class="ticket-regular-filters-entry" data-filter="1">Багаж</a>
+                </div>
+                <div class="col-auto col-md-3">
+                  <a href="#" class="ticket-regular-filters-entry" data-filter="2">Пересадки</a>
+                </div>
+                <div class="col-auto col-md-6">
+                  <a href="#" class="ticket-regular-filters-entry" data-filter="3">Пункты пересадки</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-auto col-md-4">
+              <div class="row">
+                <div class="col-auto col-md-5">
+                  <a href="#" class="ticket-regular-filters-entry" data-filter="4">Время</a>
+                </div>
+                <div class="col-auto col-md-7">
+                  <a href="#" class="ticket-regular-filters-entry" data-filter="5">Авиакомпании</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-actions py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 my-3 md-my-0">
+            <p class="footer-title">Наши контакты</p>
+            <p class="footer-content">
+              01010, г. Киев, ул. Федьковича, 58
+            </p>
+            <p class="footer-content">
+              Email: info@misto.travel
+            </p>
+            <div class="footer-social">
+              <div class="social-links">
+                <a href="#"><img src="/assets/img/social/facebook-white.svg"></a>
+                <a href="#"><img src="/assets/img/social/vk-white.svg"></a>
+                <a href="#"><img src="/assets/img/social/twitter-white.svg"></a>
+                <a href="#"><img src="/assets/img/social/instagram-white.svg"></a>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-md-block col-md-4 mb-2 md-mb-0">
+            <p class="footer-title">Туры</p>
+            <ul class="footer-menu">
+              <li><a href="#">Поиск туров</a></li>
+              <li><a href="#">Экскурсионные туры</a></li>
+              <li><a href="#">Инфотуры</a></li>
+              <li><a href="#">Избранные туры</a></li>
+            </ul>
+          </div>
+          <div class="d-none d-md-block col-md-4 mb-2 md-mb-0">
+            <p class="footer-title">Меню сайта</p>
+            <div class="row">
+              <div class="col-5">
+                <ul class="footer-menu">
+                  <li><a href="#">Туры</a></li>
+                  <li><a href="#">Билеты</a></li>
+                  <li><a href="#">Страховка</a></li>
+                  <li><a href="#">Страны</a></li>
+                </ul>
+              </div>
+              <div class="col-5">
+                <ul class="footer-menu">
+                  <li><a href="#">Отели</a></li>
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">О нас</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright py-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 info mb-2 md-mb-0">
+            Вся информация, размещённая на сайте, носит исключительно информационный характер и не является рекламой и публичной офертой.
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+          <div class="col-12 col-md-4 text-center copy">
+            ООО «ТурМаркет»<br>
+            © 2019 Все права защищены
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+
+</html>
